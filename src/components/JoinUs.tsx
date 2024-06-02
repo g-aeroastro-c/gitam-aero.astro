@@ -6,19 +6,19 @@ import { TypewriterEffect } from "../components/ui/typewriter-effect";
 export function TypewriterEffectDemo() {
   const words = [
     {
-      text: "Innovate,",
+      text: "Build",
     },
     {
-      text: "Build,",
+      text: "the",
     },
     {
-      text: "Learn",
+      text: "Future",
     },
     {
-      text: "&",
+      text: ".",
     },
     {
-      text: "Grow.",
+      text: "Together",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];
