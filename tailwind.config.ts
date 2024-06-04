@@ -12,6 +12,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './public/**/*.{jpg,jpeg,png,webp,svg}',
   ],
   darkMode: 'class',
   theme: {
