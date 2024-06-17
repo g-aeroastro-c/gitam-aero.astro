@@ -5,7 +5,6 @@ import { ThreeDCardDemo } from "../components/eb";
 import { ThreeDCardDemo2 } from "../components/eb-2";
 import { PlaceholdersAndVanishInputDemo } from "@/components/faq";
 import { SignupFormDemo } from "@/components/contact";
-import { footer } from "@/components/footer";
 
 export default function Home() {
   return (
