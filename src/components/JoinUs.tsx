@@ -23,8 +23,14 @@ export function TypewriterEffectDemo() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem] ">
-      <img src="gaac-logo.png" alt="gaac-logo" />
+    <div className="flex flex-col items-center justify-center h-[40rem]">
+      <Image 
+        src="/gaac-logo.png"
+        alt="GAAC Logo"
+        width={750}
+        height={450}
+        priority
+      />
       <p className="text-neutral-600 dark:text-neutral-200 text-base  mb-10">
         Your career starts from here
       </p>
