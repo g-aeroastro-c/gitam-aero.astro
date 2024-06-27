@@ -39,14 +39,14 @@ const starMembers = () => {
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
             >
-              Case Study-1
+              Case Study-2
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              Ibrahim Chikani
+              V.L.P Srinidhi
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem
@@ -67,14 +67,14 @@ const starMembers = () => {
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
             >
-              Case Study-1
+              Case Study-3
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
               className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
             >
-              Ibrahim Chikani
+              Rama Murthy
             </CardItem>
             <div className="flex justify-between items-center mt-20">
               <CardItem

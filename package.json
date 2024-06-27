@@ -16,7 +16,7 @@
     "@tsparticles/slim": "^3.4.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
-    "next": "14.2.3",
+    "next": "^14.2.4",
     "react": "^18",
     "react-dom": "^18",
     "simplex-noise": "^4.0.1",
