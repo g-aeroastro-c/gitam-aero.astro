@@ -23,12 +23,12 @@ export function ThreeDCardDemo() {
           President (2024-25)
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <Image
-            src="/public/Ibrahim.jpeg"
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
+        <Image 
+            src="/gaac-logo.png"
+            alt="Executive Body"
+            width={750}
+            height={450}
+            priority
           />
         </CardItem>
         <div className="flex justify-between items-center mt-20">
@@ -66,13 +66,13 @@ export function ThreeDCardDemo() {
           Secretary (2024-25)
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
-          <Image
-            src="/public/Rithika.jpeg"
-            height="1000"
-            width="1000"
-            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-            alt="thumbnail"
-          />
+          <Image 
+              src="/gaac-logo.png"
+              alt="Executive Body"
+              width={750}
+              height={450}
+              priority
+            />
         </CardItem>
         <div className="flex justify-between items-center mt-20">
           <CardItem
