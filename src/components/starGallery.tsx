@@ -10,6 +10,7 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
+import Image from "next/image";
 
 export function BentoGridDemo() {
   return (
@@ -34,19 +35,37 @@ const items = [
   {
     title: "Dianas eve",
     description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton />,
+    header: <Image 
+              src="/gaac-logo.png"
+              alt="Executive Body"
+              width={750}
+              height={450}
+              priority
+            />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Cinematic Soiree",
     description: "Dive into the transformative power of technology.",
-    header: <Skeleton />,
+    header: <Image 
+              src="/gaac-logo.png"
+              alt="Executive Body"
+              width={750}
+              height={450}
+              priority
+            />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Dianas eve",
     description: "Discover the beauty of thoughtful and functional design.",
-    header: <Skeleton />,
+    header: <Image 
+              src="/gaac-logo.png"
+              alt="Executive Body"
+              width={750}
+              height={450}
+              priority
+            />,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {

@@ -1,6 +1,7 @@
 import React from 'react'
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import Link from "next/link";
+import Image from 'next/image';
 
 const starMembers = () => {
   return (
@@ -27,6 +28,13 @@ const starMembers = () => {
                 target="__blank"
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
+                <Image 
+                  src="/gaac-logo.png"
+                  alt="Executive Body"
+                  width={750}
+                  height={450}
+                  priority
+                />
                 <Link href="#" className='text-blue-500 hover:underline'>Read more...</Link>
               </CardItem>
             </div>
@@ -55,6 +63,13 @@ const starMembers = () => {
                 target="__blank"
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
+                 <Image 
+                  src="/gaac-logo.png"
+                  alt="Executive Body"
+                  width={750}
+                  height={450}
+                  priority
+                />
                 <Link href="#" className='text-blue-500 hover:underline'>Read more...</Link>
               </CardItem>
             </div>
@@ -83,6 +98,13 @@ const starMembers = () => {
                 target="__blank"
                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
               >
+                 <Image 
+                    src="/gaac-logo.png"
+                    alt="Executive Body"
+                    width={750}
+                    height={450}
+                    priority
+                  />
                 <Link href="#" className='text-blue-500 hover:underline'>Read more...</Link>
               </CardItem>
             </div>
