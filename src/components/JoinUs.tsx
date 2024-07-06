@@ -23,15 +23,15 @@ export function TypewriterEffectDemo() {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem]">
+    <div className="flex flex-col items-center justify-center h-[30rem]">
       <Image 
         src="/gaac-logo.png"
         alt="GAAC Logo"
-        width={750}
-        height={450}
+        width={600}
+        height={300}
         priority
       />
-      <p className="text-neutral-600 dark:text-neutral-200 text-base  mb-10">
+      <p className="text-neutral-1000 dark:text-neutral-200 text-base mt-10 mb-10 text-5xl">
         Your career starts from here
       </p>
       <TypewriterEffect words={words} />
