@@ -31,7 +31,7 @@ export function TypewriterEffectDemo() {
         height={300}
         priority
       />
-      <p className="text-neutral-1000 dark:text-neutral-200 text-base mt-10 mb-10 text-5xl">
+      <p className="text-neutral-1000 dark:text-neutral-200 text-base mt-10 mb-10 text-xl">
         Your career starts from here
       </p>
       <TypewriterEffect words={words} />
