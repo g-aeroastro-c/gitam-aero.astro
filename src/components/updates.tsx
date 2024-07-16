@@ -6,62 +6,62 @@ import { Tabs } from "../components/ui/tabs";
 export function TabsDemo() {
   const tabs = [
     {
-      title: "Executive Body",
+      title: "Hackathon",
       value: "product",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Product Tab</p>
+          <p>Hackathon</p>
           <Image 
-            src="/gaac-logo.png"
-            alt="Executive Body"
-            width={750}
-            height={450}
+            src="/hackathon.jpg"
+            alt="Hackathon"
+            width={1000}
+            height={1000}
             priority
           />
         </div>
       ),
     },
     {
-      title: "Events",
+      title: "Fest",
       value: "services",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Services tab</p>
           <Image 
-            src="/gaac-logo.png"
-            alt="Executive Body"
+            src="/fest.png"
+            alt="Fest"
             width={750}
-            height={450}
+            height={750}
             priority
           />
         </div>
       ),
     },
     {
-      title: "Projects",
+      title: "Beach cleaning robot ",
       value: "playground",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Playground tab</p>
           <Image 
-            src="/gaac-logo.png"
-            alt="Executive Body"
+            src="/beach-robot.jpeg"
+            alt="Beach cleaning robot"
             width={750}
-            height={450}
+            height={750}
             priority
           />
         </div>
       ),
     },
     {
-      title: "News",
+      title: "Outreach program",
       value: "content",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Content tab</p>
           <Image 
-            src="/gaac-logo.png"
-            alt="Executive Body"
+            src="/outreach.jpeg"
+            alt="Outreach program"
             width={750}
             height={450}
             priority
@@ -70,14 +70,14 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Featured Blog",
+      title: "Isro field trip",
       value: "random",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Random tab</p>
           <Image 
-            src="/gaac-logo.png"
-            alt="Executive Body"
+            src="/isro.jpg"
+            alt="Isro field trip"
             width={750}
             height={450}
             priority
