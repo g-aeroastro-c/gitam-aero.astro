@@ -23,10 +23,10 @@ export function TabsDemo() {
     },
     {
       title: "Fest",
-      value: "services",
+      value: "Scintilla",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Services tab</p>
+          <p>Scintilla</p>
           <Image 
             src="/fest.png"
             alt="Fest"
@@ -39,10 +39,10 @@ export function TabsDemo() {
     },
     {
       title: "Beach cleaning robot ",
-      value: "playground",
+      value: "Social service",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Playground tab</p>
+          <p>Social service</p>
           <Image 
             src="/beach-robot.jpeg"
             alt="Beach cleaning robot"
@@ -55,10 +55,10 @@ export function TabsDemo() {
     },
     {
       title: "Outreach program",
-      value: "content",
+      value: "Inspiring young minds",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Content tab</p>
+          <p>Inspiring young minds</p>
           <Image 
             src="/outreach.jpeg"
             alt="Outreach program"
@@ -71,10 +71,10 @@ export function TabsDemo() {
     },
     {
       title: "Isro field trip",
-      value: "random",
+      value: "Educational trip",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Random tab</p>
+          <p>Educational trip</p>
           <Image 
             src="/isro.jpg"
             alt="Isro field trip"

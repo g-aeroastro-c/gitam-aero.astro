@@ -22,7 +22,6 @@ function Navbar({ className }: { className?: string}) {
             </HoveredLink>
             <MenuItem setActive={setActive} active={active} item="Teams">
                 <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/teams">Executive Body</HoveredLink>
                     <HoveredLink href="/teams">Core Team</HoveredLink>
                     <HoveredLink href="/stargazers">StarGazers</HoveredLink>
                     <HoveredLink href="/teams">ROBusta</HoveredLink>
@@ -30,10 +29,10 @@ function Navbar({ className }: { className?: string}) {
             </MenuItem>
             <MenuItem setActive={setActive} active={active} item="Events">
                 <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/teams">Event A</HoveredLink>
-                    <HoveredLink href="/teams">Event B</HoveredLink>
-                    <HoveredLink href="/teams">Event C</HoveredLink>
-                    <HoveredLink href="/teams">Event D</HoveredLink>
+                    <HoveredLink href="/teams">Hackathon</HoveredLink>
+                    <HoveredLink href="/teams">Fest</HoveredLink>
+                    <HoveredLink href="/teams">Beach Cleaning Robot</HoveredLink>
+                    <HoveredLink href="/teams">ISRO trip</HoveredLink>
                 </div>
             </MenuItem>
             <MenuItem setActive={setActive} active={active} item="Sponsor Us">
