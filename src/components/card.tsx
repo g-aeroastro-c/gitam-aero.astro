@@ -57,12 +57,12 @@ export function MeteorsDemo() {
               {card.title}
             </h1>
 
-            <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
+            <p className="font-normal text-base text-slate-300 mb-4 relative z-50">
               {card.description}
             </p>
 
-            <button className="border px-4 py-1 rounded-lg border-gray-500 text-gray-300">
-              Apply Now
+            <button className="border px-4 py-1 rounded-lg border-gray-500 text-orange-300 hover:bg-black hover:drop-shadow-2xl">
+              Apply Now !
             </button>
 
             <Meteors number={20} />
