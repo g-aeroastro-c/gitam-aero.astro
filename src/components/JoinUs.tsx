@@ -31,7 +31,7 @@ export function TypewriterEffectDemo() {
         height={300}
         priority
       />
-      <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#00c6ff] to-[#0072ff] mt-10 mb-10 text-xl">
+      <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#00c6ff] to-[#0072ff] mt-10 mb-10 mb-10 text-3xl">
         Your career starts from here
       </p>
       <TypewriterEffect words={words} />
