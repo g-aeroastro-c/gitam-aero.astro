@@ -16,12 +16,12 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.4.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.2.13",
+    "framer-motion": "^11.3.21",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "simplex-noise": "^4.0.1",
-    "tailwind-merge": "^2.3.0"
+    "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",
