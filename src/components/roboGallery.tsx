@@ -1,6 +1,6 @@
-import { cn } from "@/utils/cn";
+import { cn } from "../utils/cn";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
 import {
   IconArrowWaveRightUp,
   IconBoxAlignRightFilled,
@@ -32,45 +32,44 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "Dianas eve",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "Sangharsh",
+    description: "Robo-Soccer",
     header: <Skeleton />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Cinematic Soiree",
-    description: "Dive into the transformative power of technology.",
+    title: "Beach Cleaning Project",
+    description: "Working on the Robot",
     header: <Skeleton />,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Dianas eve",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "IIT Kanpur",
+    description: "Manuevere Bot",
     header: <Skeleton />,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Team Meetings",
-    description:
-      "Understand the impact of effective communication in our lives.",
+    title: "Sangharsh",
+    description: "Late nights before the project",
     header: <Skeleton />,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Team Meetings",
-    description: "Join the quest for understanding and enlightenment.",
+    title: "Techkriti",
+    description: "All nighter for our passion- Robotics",
     header: <Skeleton />,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Joy of Creation",
-    description: "Experience the thrill of bringing ideas to life.",
+    title: "Techkriti",
+    description: "Our final build",
     header: <Skeleton />,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Spirit of Adventure",
-    description: "Embark on exciting journeys and thrilling discoveries.",
+    title: "Techkriti",
+    description: "The moment of truth",
     header: <Skeleton />,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
