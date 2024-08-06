@@ -44,7 +44,7 @@ export function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Social service</p>
           <Image 
-            src="/beach-robot.jpeg"
+            src="/beach-robot.jpg"
             alt="Beach cleaning robot"
             width={750}
             height={750}
@@ -60,7 +60,7 @@ export function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Inspiring young minds</p>
           <Image 
-            src="/outreach.jpeg"
+            src="/outreach.jpg"
             alt="Outreach program"
             width={750}
             height={450}
@@ -76,7 +76,7 @@ export function TabsDemo() {
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
           <p>Educational trip</p>
           <Image 
-            src="/isro.jpg"
+            src="/isro.png"
             alt="Isro field trip"
             width={750}
             height={450}

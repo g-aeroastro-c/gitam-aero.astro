@@ -24,7 +24,7 @@ export function ThreeDCardDemo() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
         <Image 
-            src="/gaac-logo.png"
+            src="/ibrahim.jpg"
             alt="Executive Body"
             width={750}
             height={450}
@@ -60,7 +60,7 @@ export function ThreeDCardDemo() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image 
-              src="/gaac-logo.png"
+              src="/rithika.jpeg"
               alt="Executive Body"
               width={750}
               height={450}

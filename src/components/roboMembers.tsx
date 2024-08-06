@@ -12,7 +12,7 @@ export function CardHoverEffectDemo() {
 const item = [
   {
     title: "Sampath Varma",
-    image : "@/public/Srinidhi.png",
+    image : "/Sampath.jpg",
     description : "Team Lead",
     link : "#",
   },
