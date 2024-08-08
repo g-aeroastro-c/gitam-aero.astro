@@ -10,6 +10,7 @@ import {
   IconSignature,
   IconTableColumn,
 } from "@tabler/icons-react";
+import Image from "next/image";
 
 export function BentoGridDemo() {
   return (
@@ -20,6 +21,7 @@ export function BentoGridDemo() {
           title={item.title}
           description={item.description}
           header={item.header}
+          image={item.image}
           icon={item.icon}
           className={i === 3 || i === 6 ? "md:col-span-2" : ""}
         />
@@ -35,6 +37,7 @@ const items = [
     title: "Dianas eve",
     description: "Explore the birth of groundbreaking ideas and inventions.",
     header: <Skeleton />,
+    image: "/gaac-logo.png",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {

@@ -1,7 +1,8 @@
 "use client";
 import { VortexDemo } from "@/components/vortex-hero";
-import { CardHoverEffectDemo } from "@/components/starMembers";
-import { BentoGridDemo } from "@/components/starGallery";
+import { ThreeDCardDemo } from "@/components/starMembers";
+import { ThreeDCardDemo2 } from "@/components/starMembers2";
+import { BentoGridThirdDemo } from "@/components/starGalleryf";
 import Work from "@/components/starWork";
 import React from 'react';
 
@@ -17,12 +18,16 @@ const Stargazers = () => {
 
       </div>
       <div className="p-5">
+        <h2 className="text-white font-bold text-4xl text-left">Meet our Leads</h2>
+        <ThreeDCardDemo />
+      </div>
+      <div className="p-5">
         <h2 className="text-white font-bold text-4xl text-left">Meet the team😊</h2>
-        <CardHoverEffectDemo />
+        <ThreeDCardDemo2 />
       </div>
       <div className="p-5">
         <h2 className="text-white font-bold text-4xl text-left">Gallery🖼️</h2>
-        <BentoGridDemo />
+        <BentoGridThirdDemo />
       </div>
     </div>
   );
