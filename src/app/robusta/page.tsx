@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Work from "@/components/roboWork";
-import { CardHoverEffectDemo } from '@/components/roboMembers';
+import { ThreeDCardDemo } from '@/components/roboMembers';
+import { ThreeDCardDemo2 } from '@/components/roboMember2';
 import { BentoGridDemo } from '@/components/roboGallery';
 import { Boxes } from '@/components/ui/background-boxes';
 
@@ -24,7 +25,11 @@ const Robusta = () => {
                 </div>
                 <div className="p-5">
                     <h2 className="text-white font-bold text-4xl text-left">Meet the team</h2>
-                    <CardHoverEffectDemo />
+                    <ThreeDCardDemo />
+                </div>
+                <div className="p-5">
+                    <h2 className="text-white font-bold text-4xl text-left">Meet the team</h2>
+                    <ThreeDCardDemo2 />
                 </div>
                 <div className="p-5">
                     <h2 className="text-white font-bold text-4xl text-left">Gallery</h2>
