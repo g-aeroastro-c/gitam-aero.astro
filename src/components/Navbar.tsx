@@ -16,10 +16,6 @@ function Navbar({ className }: { className?: string}) {
             <MenuItem setActive={setActive} active={active} item="Home">
             </MenuItem>
             </HoveredLink>
-            <HoveredLink href={"#"}>
-            <MenuItem setActive={setActive} active={active} item="About Us">
-            </MenuItem>
-            </HoveredLink>
             <MenuItem setActive={setActive} active={active} item="Teams">
                 <div className="flex flex-col space-y-4 text-sm">
                     <HoveredLink href="/stargazers">StarGazers</HoveredLink>
@@ -34,10 +30,14 @@ function Navbar({ className }: { className?: string}) {
                     <HoveredLink href="/teams">ISRO trip</HoveredLink>
                 </div>
             </MenuItem>
+            <HoveredLink href={"#sponsors"}>
             <MenuItem setActive={setActive} active={active} item="Sponsor Us">
             </MenuItem>
+            </HoveredLink>
+            <HoveredLink href={"#contact-us"}>
             <MenuItem setActive={setActive} active={active} item="Contact Us">
             </MenuItem>
+            </HoveredLink>
         </Menu>
     </div>
   )
