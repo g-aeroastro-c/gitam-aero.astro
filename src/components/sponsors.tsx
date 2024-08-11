@@ -2,15 +2,12 @@
 
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
-import Image from "next/image";
 
 export function InfiniteMovingCardsDemo() {
   return (
     <div id="sponsors" className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={sponsors}
-        quote=""
-        image=""
         direction="right"
         speed="slow"
       />
@@ -20,7 +17,7 @@ export function InfiniteMovingCardsDemo() {
 
 const sponsors = [
   {
-    image: "/gaac-logo.png",
+    quote: "/gaac-logo.png",
     name: "Charles Dickens",
     title: "A Tale of Two Cities",
   },
