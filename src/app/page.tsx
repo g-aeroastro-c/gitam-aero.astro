@@ -6,6 +6,7 @@ import { ThreeDCardDemo2 } from "../components/eb-2";
 import { SignupFormDemo } from "@/components/contact";
 import React from "react";
 import App from "@/components/faq_accord";
+import { InfiniteMovingCardsDemo } from "../components/sponsors";
 
 
 
@@ -23,6 +24,7 @@ export default function Home() {
       <ThreeDCardDemo />
       <ThreeDCardDemo2 />
       <App />
+      <InfiniteMovingCardsDemo />
       <SignupFormDemo />
 
       <footer />
