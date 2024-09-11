@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import { Tabs } from "../components/ui/tabs";
+import Link from "next/link";
 
 export function TabsDemo() {
   const tabs = [
     {
       title: "Hackathon",
-      value: "product",
+      value: "TechNova",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Hackathon</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 sm:text-lg md:text-3xl lg:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <h5 className="lg:text-3xl md:text-3xl sm:text-2xl">Hackathon</h5>
           <Image 
             src="/hackathon.jpg"
             alt="Hackathon"
@@ -25,8 +26,13 @@ export function TabsDemo() {
       title: "Fest",
       value: "Scintilla",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Scintilla</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 sm:text-lg md:text-3xl lg:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <h5 className="lg:text-3xl md:text-3xl sm:text-2xl">Scintilla</h5>
+          <p className="lg:text-xl md:text-lg sm:text-md mt-4">
+            Unleash your creativity and showcase your talents at our annual Technical Fest. 
+            From competitions to workshops, this event is your gateway to innovation, networking, and industry insights.
+          </p>
+          <Link href="#" className="text-blue-500 underline mt-4">Register Now</Link>
           <Image 
             src="/fest.png"
             alt="Fest"
@@ -38,11 +44,11 @@ export function TabsDemo() {
       ),
     },
     {
-      title: "Beach cleaning robot ",
+      title: "Beach cleaning robot",
       value: "Social service",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Social service</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 sm:text-lg md:text-3xl lg:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <h5 className="lg:text-3xl md:text-3xl sm:text-2xl">Social service</h5>
           <Image 
             src="/beach-robot.jpg"
             alt="Beach cleaning robot"
@@ -57,8 +63,11 @@ export function TabsDemo() {
       title: "Outreach program",
       value: "Inspiring young minds",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Inspiring young minds</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 sm:text-lg md:text-3xl lg:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <h5 className="lg:text-3xl md:text-3xl sm:text-2xl">Inspiring young minds</h5>
+          <p className="lg:text-xl md:text-lg sm:text-md mt-4">
+            Join hands in educating our community with this initiative. It’s a chance to give back to the community, make a tangible environmental impact, and strengthen bonds within our team.
+          </p>
           <Image 
             src="/outreach.jpg"
             alt="Outreach program"
@@ -73,8 +82,11 @@ export function TabsDemo() {
       title: "Isro field trip",
       value: "Educational trip",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Educational trip</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 sm:text-lg md:text-3xl lg:text-3xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <h5 className="lg:text-3xl md:text-3xl sm:text-2xl">Educational trip</h5>
+          <p className="lg:text-xl md:text-lg sm:text-md mt-4">
+            Get an insider’s view of India’s space frontier with an exclusive trip to ISRO. Dive into the latest advancements in space technology and engage with experts who are pushing the boundaries of space exploration.
+          </p>
           <Image 
             src="/isro.png"
             alt="Isro field trip"
@@ -86,6 +98,7 @@ export function TabsDemo() {
       ),
     },
   ];
+  
 
   return (
     <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
